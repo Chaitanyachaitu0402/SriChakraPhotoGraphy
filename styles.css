@@ -1,3 +1,17 @@
+/* fonts.css */
+@font-face {
+  font-family: 'BrushScriptMT';
+  src:
+    local('Brush Script MT'),
+    local('BrushScriptMT'),
+    url('/assets/fonts/Brush-Script-MT-Regular.ttf') format('woff2'),
+    url('/assets/fonts/Brush-Script-MT-Regular.ttf') format('woff'),
+    url('/assets/fonts/Brush-Script-MT-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; /* shows fallback text until font loads */
+}
+
 
 :root {
   --text-dark: #171717;
@@ -26,6 +40,9 @@
   font-family: var(--header-font);
   color: var(--text-dark);
   text-align: center;
+  font-family: 'BrushScriptMT', 'Brush Script MT', cursive; /* fallbacks */
+  font-size: clamp(28px, 6vw, 72px);
+  letter-spacing: 0.02em;
 }
 
 .section__description {
@@ -148,6 +165,15 @@ nav {
 
 .nav__logo img {
   max-width: 80px;
+}
+
+.nav__logo2 img {
+  max-width: 130px;
+}
+
+.nav__logo2 {
+  display: flex;
+  justify-content: center;
 }
 
 .nav__menu__btn {
@@ -722,6 +748,10 @@ nav {
     min-height: 668px;
   }
 
+  .nav__logo2 img{
+    margin-top: 150%;
+  }
+
 }
 
 @media (width > 768px) {
@@ -734,6 +764,7 @@ nav {
     position: static;
     max-width: 900px;
     display: flex;
+    justify-content: center;
     align-items: center;
     justify-content: space-between;
   }

@@ -671,6 +671,13 @@ nav {
 }
 }
 
+@media (width < 768px) {
+
+   .header {
+    min-height: 668px;
+  }
+
+}
 
 @media (width > 768px) {
   .header {

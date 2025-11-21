@@ -748,15 +748,19 @@ nav {
 }
 }
 
-@media (width < 768px) {
+@media (width < 769px) {
 
    .header {
     min-height: 668px;
   }
 
-  .nav__logo2 img{
-    margin-top: 150%;
+  .nav__logo2 .text2{
+    margin-top: 55%;
   }
+  .nav__logo2 .text2 p {
+  font-size: 20px;
+  color: white;
+}
 
 }
 

@@ -167,8 +167,14 @@ nav {
   max-width: 80px;
 }
 
-.nav__logo2 img {
-  max-width: 130px;
+.nav__logo2 .text2 p {
+  font-size: 30px;
+  color: white;
+}
+
+.nav__logo2 .text2 .wedding{
+  font-size: 15px;
+  text-align: center;
 }
 
 .nav__logo2 {

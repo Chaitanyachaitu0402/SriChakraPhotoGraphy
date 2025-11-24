@@ -164,12 +164,13 @@ nav {
 }
 
 .nav__logo img {
-  max-width: 80px;
+  max-width: 60px;
 }
 
 .nav__logo2 .text2 p {
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .nav__logo2 .text2 .wedding{
@@ -214,6 +215,7 @@ nav {
 .nav__header .nav__logo{
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .nav__header .nav__logo .text p{
@@ -755,7 +757,7 @@ nav {
   }
 
   .nav__logo2 .text2{
-    margin-top: 55%;
+    margin-top: 65%;
   }
   .nav__logo2 .text2 p {
   font-size: 20px;
@@ -798,7 +800,7 @@ nav {
   }
 
   .nav__links .nav__logo img {
-    max-width: 150px;
+    max-width: 100px;
   }
 
   .portfolio__grid {
